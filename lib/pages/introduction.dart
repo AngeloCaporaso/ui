@@ -31,8 +31,8 @@ class IntroductionPage extends StatelessWidget {
                   transition: Transition.cupertino);
             },
 
-              itemBuilder: (int index, double value)  {
-              return Column (
+              itemBuilder: (int index)  {
+                return Column (
                 children: [
                   Align(
                     alignment: Alignment.topRight,
